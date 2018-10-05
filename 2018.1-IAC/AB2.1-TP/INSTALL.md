@@ -2,4 +2,4 @@
 
 gcc main.c -o main
 ./main
-The argv responde to "ucp" and "ucp-mem"
+The argv response to "ucp" and "ucp-mem"
