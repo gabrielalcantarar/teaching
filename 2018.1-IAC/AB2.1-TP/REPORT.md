@@ -31,14 +31,14 @@
  Ao declarar PID = fork( ), criam-se processos filhos que tem como trabalho elevar o uso da UCP ao máximo e alocar memória para os experimentos. Concomitantemente, é criado um processo pai - tido como principal - que tem como função monitorar o uso dos componentes estudados. 
 #### Utilização intensa da UCP
 ---
-Para a utilização intensa da UCP, foi usada a estrutura de repetição For(;;){}. Dada essa instrução, gera-se um loop infinito que eleva os processos da UCP ao máximo e, com isso, registramos o seu comportomento no terminal do linux. O comando usado pelo processo pai, para o monitoramento, foi o "ps -p <pid> -o %cpu | grep -v %CPU". Com isso, foi possível captar os dados que são necessários para o estudo (gráfico 1 e 2).
+Para a utilização intensa da UCP, foi usada a estrutura de repetição For(;;){}. Dada essa instrução, gera-se um loop infinito que eleva os processos da UCP ao máximo e, com isso, registramos o seu comportamento no terminal do linux. O comando usado pelo processo pai, para o monitoramento, foi o "ps -p <pid> -o %cpu | grep -v %CPU". Com isso, foi possível captar os dados que são necessários para o estudo (gráfico 1 e 2).
 
 #### Utilização intensa da UCP e Memória
 ---
 Para a utilização intensa da UCP em conjunto com a memória, foi usada a estrutura de repetição For(;;){}, que gera o loop infinito já explicado acima, conjuntamente com a função malloc, que tem como objetivo reservar espaços de memória do sistema para o programa, como está em um loop, o alocamento vai ser cada vez maior. O comando usado pelo processo pai, para o monitoramento, foi o "pmap -x <pid> | grep total | awk '{print $3}'". Com isso, foi possível captar os dados que são necessários para o estudo (gráfico 3 e 4).
 ### Dificuldades encontradas
 ---
- É necessário, ainda, ressaltar que para evitar problemas futuros de discentes/interessados que estão usando nosso código para estudo, que ao preenchermos o TODO da intensa utilização de memória, estávamos alocando mais memória do que o sistema aguentaria, resultando assim no travamento do computador. Para consertarmos isso, descobrimos que existe uma função chamada Clock que ajudou a estabilizar o "estouro"da memória, evitando assim o PC de travar. Corrigido isso, o funcionamento do programa ocorreu de forma esperada.
+ É necessário, ainda, ressaltar, que para evitar problemas futuros de discentes/interessados que estão usando nosso código para estudo, que ao preenchermos o TODO da intensa utilização de memória, estávamos alocando mais memória do que o sistema aguentaria, resultando assim no travamento do computador. Para consertarmos isso, descobrimos que existe uma função chamada Clock que ajudou a estabilizar o "estouro" da memória, evitando assim o PC de travar. Corrigido isso, o funcionamento do programa ocorreu de forma esperada.
  
  # Resultados
 ---
