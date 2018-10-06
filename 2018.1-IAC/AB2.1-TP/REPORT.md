@@ -20,9 +20,9 @@
 ![alt text](https://imgur.com/TNYrF2a.png)
 * GRÁFICO (2) QUE EXPRESSA O COMPORTAMENTO DA MEMÓRIA NA UTILIZAÇÃO INTENSA DA UCP (./main ucp):
  ![alt text](https://imgur.com/bdKTCfj.jpg)
-* GRÁFICO(3) QUE EXPRESSA A UTILIZAÇÃO INTENSA DA CPU E MEMÓRIA (./main ucp-mem):
+* GRÁFICO (3) QUE EXPRESSA A UTILIZAÇÃO INTENSA DA CPU E MEMÓRIA (./main ucp-mem):
 ![alt text](https://imgur.com/oPcnFWr.png)
-* GRÁFICO(4) QUE EXPRESSA O COMPORTAMENDO DA MEMÓRIA NA UTILIZAÇÃO INTENSA DA UCP E MEMÓRIA (./main ucp-mem): 
+* GRÁFICO (4) QUE EXPRESSA O COMPORTAMENDO DA MEMÓRIA NA UTILIZAÇÃO INTENSA DA UCP E MEMÓRIA (./main ucp-mem): 
 
 ![alt tex](https://i.imgur.com/iGnTyCy.jpg) 
 
