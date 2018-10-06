@@ -37,7 +37,7 @@
 
 * ./main ucp-mem
 
- #### Breve introdução a função Fork( ):
+ #### Breve introdução a função Fork( )
  ---
  A priori, julgamos necessário explicar o funcionamento da função fork( ) para o maior entendimento dos processos.
  Ao declarar PID = fork( ), criam-se processos filhos que tem como trabalho elevar o uso da UCP ao máximo e alocar memória para os experimentos. Concomitantemente, é criado um processo pai - tido como principal - que tem como função monitorar o uso dos componentes estudados. 
