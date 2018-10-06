@@ -33,7 +33,7 @@
 ---
 Para a utilização intensa da UCP, foi usada a estrutura de repetição For(;;){}. Dada essa instrução, gera-se um loop infinito que eleva os processos da UCP ao máximo e, com isso, registramos o seu comportomento no terminal do linux. O comando usado pelo processo pai, para o monitoramento, foi o "ps -p <pid> -o %cpu | grep -v %CPU". Com isso, foi possível captar os dados que são necessários para o estudo (gráfico 1 e 2).
 
-### Utilização intensa da UCP e Memória
+#### Utilização intensa da UCP e Memória
 ---
 Para a utilização intensa da UCP em conjunto com a memória, foi usada a estrutura de repetição For(;;){}, que gera o loop infinito já explicado acima, conjuntamente com a função malloc, que tem como objetivo reservar espaços de memória do sistema para o programa, como está em um loop, o alocamento vai ser cada vez maior. O comando usado pelo processo pai, para o monitoramento, foi o "pmap -x <pid> | grep total | awk '{print $3}'". Com isso, foi possível captar os dados que são necessários para o estudo (gráfico 3 e 4).
 ### Dificuldades encontradas
