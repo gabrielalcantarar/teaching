@@ -16,7 +16,7 @@
  * Obs.: Distribuição igualitária da nota.
  # Resultados
 ---
-* GRÁFICO (1) QUE EXPRESSA A UTILIZAÇÃO INTENSA DA UCP EM % POR SEGUNDO (./main ucp):
+* GRÁFICO (1) QUE EXPRESSA A UTILIZAÇÃO INTENSA DA UCP (./main ucp):
 ![alt text](https://imgur.com/oPcnFWr.png) 
 * GRÁFICO (2) QUE EXPRESSA O COMPORTAMENDO DA MEMÓRIA NA UTILIZAÇÃO INTENSA DA UCP (./main ucp):
  ![alt text](https://imgur.com/bdKTCfj.jpg)
